@@ -268,7 +268,7 @@
   text-shadow: 2px 2px 0px var(--text-h1-shadow);
 }
 
-@media (width <=768px) {
+@media (max-width: 768px) {
   .header__theme-menu {
     align-self: center;
     justify-self: end;
@@ -286,7 +286,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (max-width: 375px) {
   .decorated-zone {
     inline-size: 100%;
   }
