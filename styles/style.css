@@ -338,6 +338,9 @@
 }
 
 @media (max-width: 375px) {
+  .header {
+    block-size: 668px;
+  }
   .main {
     gap: 50px;
     padding-inline: 10px;
