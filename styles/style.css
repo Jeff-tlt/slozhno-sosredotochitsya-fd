@@ -304,9 +304,13 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    block-size: 1024px;
+  }
+
   .main {
-    gap: 40px;
-    padding-inline: 16px;
+    gap: 80px;
+    padding-inline: 20px;
   }
 
   .header__theme-menu {
@@ -327,12 +331,17 @@
   .header__subtitle {
     max-inline-size: 364px;
   }
+
+  .main__section-content {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 375px) {
   .main {
-    gap: 30px;
-    padding-inline: 16px;
+    gap: 50px;
+    padding-inline: 10px;
+    padding-block: 40px;
   }
 
   .decorated-zone {
