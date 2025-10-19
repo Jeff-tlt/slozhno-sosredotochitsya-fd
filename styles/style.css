@@ -346,7 +346,9 @@
     padding-inline: 10px;
     padding-block: 40px;
   }
-
+  .content_title-gorizont {
+    grid-column: 1 / -1;
+  }
   .decorated-zone {
     inline-size: 100%;
   }
