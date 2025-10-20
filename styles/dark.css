@@ -28,6 +28,9 @@
     --title-shadow: #ff0070;
     --text-color-paragraph: #f1b2ce;
   }
+  .header__rec {
+    display: block;
+  }
 }
 
 html.theme-dark .header__rec {

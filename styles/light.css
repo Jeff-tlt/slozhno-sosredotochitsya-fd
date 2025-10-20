@@ -33,6 +33,9 @@
     --title-shadow: #ff8dcb;
     --text-color-paragraph: #353430;
   }
+  .header__rec {
+    display: none;
+  }
 }
 
 html.theme-light .header__rec {
