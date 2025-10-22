@@ -30,7 +30,7 @@
 
 .main__link {
   text-decoration: none;
-  text-shadow: 0px 4px 2px var(--text-color);
+  text-shadow: 0px 4px 2px var(--title-shadow);
 }
 
 .main__link:hover {
